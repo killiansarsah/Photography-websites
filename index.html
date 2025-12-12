@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina Photography - Capturing Moments</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1791cf",
+              "background-light": "#f6f7f8",
+              "background-dark": "#111c21",
+              "surface-dark": "#1a262d",
+              "surface-light": "#ffffff",
+              "border-dark": "#345565"
+            },
+            fontFamily: {
+              "display": ["Plus Jakarta Sans", "sans-serif"],
+              "body": ["Plus Jakarta Sans", "sans-serif"],
+            },
+            borderRadius: {
+              "DEFAULT": "0.25rem", 
+              "lg": "0.5rem", 
+              "xl": "0.75rem", 
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #111c21; }
+      ::-webkit-scrollbar-thumb { background: #243b47; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #1791cf; }
+      
+      body { font-family: 'Plus Jakarta Sans', sans-serif; }
+      
+      /* Masonry Utility for Tailwind compatibility if standard columns fail in older browsers */
+      .masonry-grid { column-count: 1; column-gap: 1rem; }
+      @media (min-width: 640px) { .masonry-grid { column-count: 2; } }
+      @media (min-width: 1024px) { .masonry-grid { column-count: 3; } }
+      .masonry-item { break-inside: avoid; margin-bottom: 1rem; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white transition-colors duration-200">
+    <div id="root"></div>
+  </body>
+</html>
