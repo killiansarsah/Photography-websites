@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { getAssetPath } from '../utils/paths';
 
 export const ServicesSection: React.FC = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ export const ServicesSection: React.FC = () => {
           <img 
             alt="Photographer holding camera" 
             className="h-full w-full object-cover opacity-40 dark:opacity-30" 
-            src="/photos/portrait-19.jpg"
+            src={getAssetPath("/photos/portrait-19.jpg")}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background-light dark:from-background-dark via-transparent to-transparent"></div>
         </div>
