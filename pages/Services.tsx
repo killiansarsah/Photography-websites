@@ -12,7 +12,7 @@ export const ServicesSection: React.FC = () => {
           <img 
             alt="Photographer holding camera" 
             className="h-full w-full object-cover opacity-40 dark:opacity-30" 
-            src="/photos/51043010_565957363900901_7454095722745839401_n.jpg"
+            src={getAssetPath("/photos/51043010_565957363900901_7454095722745839401_n.jpg")}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background-light dark:from-background-dark via-transparent to-transparent"></div>
         </div>

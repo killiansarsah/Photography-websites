@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const recentShots = [
-    '/photos/recent-1.jpg',
-    '/photos/recent-2.jpg',
-    '/photos/recent-3.jpg',
-    '/photos/recent-4.jpg',
-    '/photos/recent-5.jpg',
-    '/photos/recent-6.jpg'
+    getAssetPath("/photos/recent-1.jpg"),
+    getAssetPath("/photos/recent-2.jpg"),
+    getAssetPath("/photos/recent-3.jpg"),
+    getAssetPath("/photos/recent-4.jpg"),
+    getAssetPath("/photos/recent-5.jpg"),
+    getAssetPath("/photos/recent-6.jpg")
   ];
 
   const SocialIcon = ({ path, href, label, className }: { path: string, href: string, label: string, className: string }) => (
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <img 
-                src="/photos/Logo_darkmode-removebg-preview.png" 
+                src={getAssetPath("/photos/Logo_darkmode-removebg-preview.png")} 
                 alt="Logo" 
                 className="h-44 w-auto" 
               />
