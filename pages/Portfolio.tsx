@@ -590,7 +590,7 @@ export const PortfolioSection: React.FC = () => {
       "gallery-36.jpg", "gallery-37.jpg", "gallery-38.jpg", "gallery-39.jpg", "gallery-40.jpg",
       "gallery-41.jpg", "gallery-42.jpg"
     ];
-    return allImages.map(f => ({ src: `/photos/${f}`, title: f, category: 'All', location: 'Ghana' }));
+    return allImages.map(f => ({ src: getAssetPath(`/photos/${f}`), title: f, category: 'All', location: 'Ghana' }));
   }
 
   const filteredItems = activeCategory === 'All'
