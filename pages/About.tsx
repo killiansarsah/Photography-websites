@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { getAssetPath } from '../utils/paths';
 
 export const AboutSection: React.FC = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
@@ -7,11 +8,11 @@ export const AboutSection: React.FC = () => {
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
 
   const videos = [
-    '/photos/About me vid.mp4',
-    '/photos/About me vid1.mp4',
-    '/photos/About me vid 2.mp4',
-    '/photos/About me vid 3.mp4',
-    '/photos/About me vid4.mp4'
+    getAssetPath('/photos/About me vid.mp4'),
+    getAssetPath('/photos/About me vid1.mp4'),
+    getAssetPath('/photos/About me vid 2.mp4'),
+    getAssetPath('/photos/About me vid 3.mp4'),
+    getAssetPath('/photos/About me vid4.mp4')
   ];
 
   useEffect(() => {

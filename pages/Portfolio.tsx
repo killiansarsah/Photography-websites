@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { getAssetPath } from '../utils/paths';
 
 interface PortfolioItem {
   src: string;
@@ -11,211 +12,211 @@ interface PortfolioItem {
 const portfolioItems: PortfolioItem[] = [
   // Weddings
   { 
-    src: "/photos/wedding.jpg", 
+    src: getAssetPath("/photos/wedding.jpg"), 
     title: "Wedding Day 1", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (2).jpg", 
+    src: getAssetPath("/photos/wedding (2).jpg"), 
     title: "Wedding Day 2", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (3).jpg", 
+    src: getAssetPath("/photos/wedding (3).jpg"), 
     title: "Wedding Day 3", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (4).jpg", 
+    src: getAssetPath("/photos/wedding (4).jpg"), 
     title: "Wedding Day 4", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (5).jpg", 
+    src: getAssetPath("/photos/wedding (5).jpg"), 
     title: "Wedding Day 5", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (6).jpg", 
+    src: getAssetPath("/photos/wedding (6).jpg"), 
     title: "Wedding Day 6", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (7).jpg", 
+    src: getAssetPath("/photos/wedding (7).jpg"), 
     title: "Wedding Day 7", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (8).jpg", 
+    src: getAssetPath("/photos/wedding (8).jpg"), 
     title: "Wedding Day 8", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (9).jpg", 
+    src: getAssetPath("/photos/wedding (9).jpg"), 
     title: "Wedding Day 9", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (10).jpg", 
+    src: getAssetPath("/photos/wedding (10).jpg"), 
     title: "Wedding Day 10", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (11).jpg", 
+    src: getAssetPath("/photos/wedding (11).jpg"), 
     title: "Wedding Day 11", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (12).jpg", 
+    src: getAssetPath("/photos/wedding (12).jpg"), 
     title: "Wedding Day 12", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (13).jpg", 
+    src: getAssetPath("/photos/wedding (13).jpg"), 
     title: "Wedding Day 13", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (14).jpg", 
+    src: getAssetPath("/photos/wedding (14).jpg"), 
     title: "Wedding Day 14", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (15).jpg", 
+    src: getAssetPath("/photos/wedding (15).jpg"), 
     title: "Wedding Day 15", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (16).jpg", 
+    src: getAssetPath("/photos/wedding (16).jpg"), 
     title: "Wedding Day 16", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (17).jpg", 
+    src: getAssetPath("/photos/wedding (17).jpg"), 
     title: "Wedding Day 17", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (18).jpg", 
+    src: getAssetPath("/photos/wedding (18).jpg"), 
     title: "Wedding Day 18", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (19).jpg", 
+    src: getAssetPath("/photos/wedding (19).jpg"), 
     title: "Wedding Day 19", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (20).jpg", 
+    src: getAssetPath("/photos/wedding (20).jpg"), 
     title: "Wedding Day 20", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (21).jpg", 
+    src: getAssetPath("/photos/wedding (21).jpg"), 
     title: "Wedding Day 21", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (22).jpg", 
+    src: getAssetPath("/photos/wedding (22).jpg"), 
     title: "Wedding Day 22", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (23).jpg", 
+    src: getAssetPath("/photos/wedding (23).jpg"), 
     title: "Wedding Day 23", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (24).jpg", 
+    src: getAssetPath("/photos/wedding (24).jpg"), 
     title: "Wedding Day 24", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (25).jpg", 
+    src: getAssetPath("/photos/wedding (25).jpg"), 
     title: "Wedding Day 25", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (26).jpg", 
+    src: getAssetPath("/photos/wedding (26).jpg"), 
     title: "Wedding Day 26", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (27).jpg", 
+    src: getAssetPath("/photos/wedding (27).jpg"), 
     title: "Wedding Day 27", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (28).jpg", 
+    src: getAssetPath("/photos/wedding (28).jpg"), 
     title: "Wedding Day 28", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (29).jpg", 
+    src: getAssetPath("/photos/wedding (29).jpg"), 
     title: "Wedding Day 29", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (30).jpg", 
+    src: getAssetPath("/photos/wedding (30).jpg"), 
     title: "Wedding Day 30", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (31).jpg", 
+    src: getAssetPath("/photos/wedding (31).jpg"), 
     title: "Wedding Day 31", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (32).jpg", 
+    src: getAssetPath("/photos/wedding (32).jpg"), 
     title: "Wedding Day 32", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (33).jpg", 
+    src: getAssetPath("/photos/wedding (33).jpg"), 
     title: "Wedding Day 33", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (34).jpg", 
+    src: getAssetPath("/photos/wedding (34).jpg"), 
     title: "Wedding Day 34", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/wedding (35).jpg", 
+    src: getAssetPath("/photos/wedding (35).jpg"), 
     title: "Wedding Day 35", 
     category: "Weddings", 
     location: "Accra, Ghana" 
@@ -223,37 +224,37 @@ const portfolioItems: PortfolioItem[] = [
 
   // Portraits
   { 
-    src: "/photos/portrait-7.jpg", 
+    src: getAssetPath("/photos/portrait-7.jpg"), 
     title: "Urban Gaze", 
     category: "Portraits", 
     location: "New York, NY" 
   },
   { 
-    src: "/photos/portrait-8.jpg", 
+    src: getAssetPath("/photos/portrait-8.jpg"), 
     title: "Raw Emotion", 
     category: "Portraits", 
     location: "Berlin, Germany" 
   },
   { 
-    src: "/photos/portrait-9.jpg", 
+    src: getAssetPath("/photos/portrait-9.jpg"), 
     title: "Soft Light", 
     category: "Portraits", 
     location: "Kyoto, Japan" 
   },
   {
-    src: "/photos/portrait-10.jpg",
+    src: getAssetPath("/photos/portrait-10.jpg"),
     title: "Studio Gaze",
     category: "Portraits",
     location: "London, UK"
   },
   {
-    src: "/photos/portrait-11.jpg",
+    src: getAssetPath("/photos/portrait-11.jpg"),
     title: "Natural Beauty",
     category: "Portraits",
     location: "Los Angeles, CA"
   },
   {
-    src: "/photos/portrait-12.jpg",
+    src: getAssetPath("/photos/portrait-12.jpg"),
     title: "Candid Moment",
     category: "Portraits",
     location: "Miami, FL"
@@ -261,19 +262,19 @@ const portfolioItems: PortfolioItem[] = [
 
   // Landscapes
   { 
-    src: "/photos/christian-diaz-Tg_Du1s-WU0-unsplash.jpg", 
+    src: getAssetPath("/photos/christian-diaz-Tg_Du1s-WU0-unsplash.jpg"), 
     title: "Mountain Solitude", 
     category: "Landscapes", 
     location: "Swiss Alps" 
   },
   { 
-    src: "/photos/alekon-pictures-yj4kwA4h_Ms-unsplash.jpg", 
+    src: getAssetPath("/photos/alekon-pictures-yj4kwA4h_Ms-unsplash.jpg"), 
     title: "Valley Dawn", 
     category: "Landscapes", 
     location: "Tuscany, Italy" 
   },
   { 
-    src: "/photos/antoine-demare-qstSVTp6OrM-unsplash.jpg", 
+    src: getAssetPath("/photos/antoine-demare-qstSVTp6OrM-unsplash.jpg"), 
     title: "Morning Mist", 
     category: "Landscapes", 
     location: "Yosemite, CA" 
@@ -281,49 +282,49 @@ const portfolioItems: PortfolioItem[] = [
 
   // Editorial
   { 
-    src: "/photos/portrait-13.jpg", 
+    src: getAssetPath("/photos/portrait-13.jpg"), 
     title: "Summer Haze", 
     category: "Editorial", 
     location: "Los Angeles, CA" 
   },
   { 
-    src: "/photos/portrait-14.jpg", 
+    src: getAssetPath("/photos/portrait-14.jpg"), 
     title: "Wanderlust", 
     category: "Editorial", 
     location: "Marrakech, Morocco" 
   },
   { 
-    src: "/photos/portrait-15.jpg", 
+    src: getAssetPath("/photos/portrait-15.jpg"), 
     title: "City Lights", 
     category: "Editorial", 
     location: "Tokyo, Japan" 
   },
   { 
-    src: "/photos/portrait-16.jpg", 
+    src: getAssetPath("/photos/portrait-16.jpg"), 
     title: "Fashion Forward", 
     category: "Editorial", 
     location: "Milan, Italy" 
   },
   { 
-    src: "/photos/portrait-17.jpg", 
+    src: getAssetPath("/photos/portrait-17.jpg"), 
     title: "Street Style", 
     category: "Editorial", 
     location: "Paris, France" 
   },
   { 
-    src: "/photos/editorial-1.jpg", 
+    src: getAssetPath("/photos/editorial-1.jpg"), 
     title: "Modern Edge", 
     category: "Editorial", 
     location: "New York, NY" 
   },
   { 
-    src: "/photos/editorial-2.jpg", 
+    src: getAssetPath("/photos/editorial-2.jpg"), 
     title: "Timeless Elegance", 
     category: "Editorial", 
     location: "London, UK" 
   },
   { 
-    src: "/photos/editorial-3.jpg", 
+    src: getAssetPath("/photos/editorial-3.jpg"), 
     title: "Bold Vision", 
     category: "Editorial", 
     location: "Barcelona, Spain" 
@@ -331,73 +332,73 @@ const portfolioItems: PortfolioItem[] = [
 
   // Videos
   { 
-    src: "/photos/vidme.mp4", 
+    src: getAssetPath("/photos/vidme.mp4"), 
     title: "With Me - Video 1", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vidme (2).mp4", 
+    src: getAssetPath("/photos/vidme (2).mp4"), 
     title: "With Me - Video 2", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vidme (3).mp4", 
+    src: getAssetPath("/photos/vidme (3).mp4"), 
     title: "With Me - Video 3", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vidme (4).mp4", 
+    src: getAssetPath("/photos/vidme (4).mp4"), 
     title: "With Me - Video 4", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vidme (5).mp4", 
+    src: getAssetPath("/photos/vidme (5).mp4"), 
     title: "With Me - Video 5", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vidme (6).mp4", 
+    src: getAssetPath("/photos/vidme (6).mp4"), 
     title: "With Me - Video 6", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vidme (7).mp4", 
+    src: getAssetPath("/photos/vidme (7).mp4"), 
     title: "With Me - Video 7", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vidme (8).mp4", 
+    src: getAssetPath("/photos/vidme (8).mp4"), 
     title: "With Me - Video 8", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/vid me.mp4", 
+    src: getAssetPath("/photos/vid me.mp4"), 
     title: "With Me - Video 9", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/H.mp4", 
+    src: getAssetPath("/photos/H.mp4"), 
     title: "Highlights", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/behind-camera.mp4", 
+    src: getAssetPath("/photos/behind-camera.mp4"), 
     title: "Behind the Camera", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/svetlana-birthday.mp4", 
+    src: getAssetPath("/photos/svetlana-birthday.mp4"), 
     title: "Svetlana's Birthday", 
     category: "Videos", 
     location: "Accra, Ghana" 
@@ -482,54 +483,54 @@ export const PortfolioSection: React.FC = () => {
   const categories = ['All', 'Weddings', 'Portraits', 'Landscapes', 'Editorial', 'Videos'];
 
   const heroImages = [
-    '/photos/wedding.jpg',
-    '/photos/wedding (2).jpg',
-    '/photos/wedding (3).jpg',
-    '/photos/wedding (4).jpg',
-    '/photos/wedding (5).jpg',
-    '/photos/wedding (6).jpg',
-    '/photos/wedding (7).jpg',
-    '/photos/wedding (8).jpg',
-    '/photos/wedding (9).jpg',
-    '/photos/wedding (10).jpg',
-    '/photos/wedding (11).jpg',
-    '/photos/wedding (12).jpg',
-    '/photos/wedding (13).jpg',
-    '/photos/wedding (14).jpg',
-    '/photos/wedding (15).jpg',
-    '/photos/wedding (16).jpg',
-    '/photos/wedding (17).jpg',
-    '/photos/wedding (18).jpg',
-    '/photos/wedding (19).jpg',
-    '/photos/wedding (20).jpg',
-    '/photos/wedding (21).jpg',
-    '/photos/wedding (22).jpg',
-    '/photos/wedding (23).jpg',
-    '/photos/wedding (24).jpg',
-    '/photos/wedding (25).jpg',
-    '/photos/wedding (26).jpg',
-    '/photos/wedding (27).jpg',
-    '/photos/wedding (28).jpg',
-    '/photos/wedding (29).jpg',
-    '/photos/wedding (30).jpg',
-    '/photos/wedding (31).jpg',
-    '/photos/wedding (32).jpg',
-    '/photos/wedding (33).jpg',
-    '/photos/wedding (34).jpg',
-    '/photos/wedding (35).jpg',
-    '/photos/gallery-1.jpg',
-    '/photos/gallery-2.jpg',
-    '/photos/gallery-3.jpg',
-    '/photos/gallery-4.jpg',
-    '/photos/gallery-5.jpg',
-    '/photos/gallery-6.jpg',
-    '/photos/gallery-7.jpg',
-    '/photos/gallery-8.jpg',
-    '/photos/gallery-9.jpg',
-    '/photos/gallery-10.jpg',
-    '/photos/About me pic1.jpg',
-    '/photos/About me pic 2.jpg',
-    '/photos/About me pic 3.jpg'
+    getAssetPath("/photos/wedding.jpg"),
+    getAssetPath("/photos/wedding (2).jpg"),
+    getAssetPath("/photos/wedding (3).jpg"),
+    getAssetPath("/photos/wedding (4).jpg"),
+    getAssetPath("/photos/wedding (5).jpg"),
+    getAssetPath("/photos/wedding (6).jpg"),
+    getAssetPath("/photos/wedding (7).jpg"),
+    getAssetPath("/photos/wedding (8).jpg"),
+    getAssetPath("/photos/wedding (9).jpg"),
+    getAssetPath("/photos/wedding (10).jpg"),
+    getAssetPath("/photos/wedding (11).jpg"),
+    getAssetPath("/photos/wedding (12).jpg"),
+    getAssetPath("/photos/wedding (13).jpg"),
+    getAssetPath("/photos/wedding (14).jpg"),
+    getAssetPath("/photos/wedding (15).jpg"),
+    getAssetPath("/photos/wedding (16).jpg"),
+    getAssetPath("/photos/wedding (17).jpg"),
+    getAssetPath("/photos/wedding (18).jpg"),
+    getAssetPath("/photos/wedding (19).jpg"),
+    getAssetPath("/photos/wedding (20).jpg"),
+    getAssetPath("/photos/wedding (21).jpg"),
+    getAssetPath("/photos/wedding (22).jpg"),
+    getAssetPath("/photos/wedding (23).jpg"),
+    getAssetPath("/photos/wedding (24).jpg"),
+    getAssetPath("/photos/wedding (25).jpg"),
+    getAssetPath("/photos/wedding (26).jpg"),
+    getAssetPath("/photos/wedding (27).jpg"),
+    getAssetPath("/photos/wedding (28).jpg"),
+    getAssetPath("/photos/wedding (29).jpg"),
+    getAssetPath("/photos/wedding (30).jpg"),
+    getAssetPath("/photos/wedding (31).jpg"),
+    getAssetPath("/photos/wedding (32).jpg"),
+    getAssetPath("/photos/wedding (33).jpg"),
+    getAssetPath("/photos/wedding (34).jpg"),
+    getAssetPath("/photos/wedding (35).jpg"),
+    getAssetPath("/photos/gallery-1.jpg"),
+    getAssetPath("/photos/gallery-2.jpg"),
+    getAssetPath("/photos/gallery-3.jpg"),
+    getAssetPath("/photos/gallery-4.jpg"),
+    getAssetPath("/photos/gallery-5.jpg"),
+    getAssetPath("/photos/gallery-6.jpg"),
+    getAssetPath("/photos/gallery-7.jpg"),
+    getAssetPath("/photos/gallery-8.jpg"),
+    getAssetPath("/photos/gallery-9.jpg"),
+    getAssetPath("/photos/gallery-10.jpg"),
+    getAssetPath("/photos/About me pic1.jpg"),
+    getAssetPath("/photos/About me pic 2.jpg"),
+    getAssetPath("/photos/About me pic 3.jpg")
   ];
 
   // Rotate hero images
