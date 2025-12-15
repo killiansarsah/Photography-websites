@@ -11,3 +11,25 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; }
 @media (min-width: 640px) { .masonry-grid { column-count: 2; } }
 @media (min-width: 1024px) { .masonry-grid { column-count: 3; } }
 .masonry-item { break-inside: avoid; margin-bottom: 1rem; }
+
+/* Preloader Animations */
+@keyframes slideUp {
+  from { transform: translateY(100vh); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideOut {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-100vh); opacity: 0; }
+}
+
+.preloader-enter { animation: slideUp 0.8s ease-out; }
+.preloader-exit { animation: slideOut 0.8s ease-in; }
+
+@keyframes dotPulse {
+  0%, 20% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.dot-animation { animation: dotPulse 1.4s infinite ease-in-out; }
