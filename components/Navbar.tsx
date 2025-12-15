@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { getAssetPath } from '../utils/paths';
 
 interface NavLinkProps {
   to: string;
@@ -40,7 +41,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group" onClick={closeMenu}>
           <img 
-            src="/photos/Logo_darkmode-removebg-preview.png" 
+            src={getAssetPath("/photos/Logo_darkmode-removebg-preview.png")} 
             alt="Logo" 
             className="h-40 w-auto group-hover:scale-110 transition-transform duration-300"
           />

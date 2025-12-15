@@ -43,21 +43,7 @@
       }
     </script>
 
-    <style>
-      /* Custom scrollbar */
-      ::-webkit-scrollbar { width: 8px; }
-      ::-webkit-scrollbar-track { background: #111c21; }
-      ::-webkit-scrollbar-thumb { background: #243b47; border-radius: 4px; }
-      ::-webkit-scrollbar-thumb:hover { background: #1791cf; }
-      
-      body { font-family: 'Plus Jakarta Sans', sans-serif; }
-      
-      /* Masonry Utility for Tailwind compatibility if standard columns fail in older browsers */
-      .masonry-grid { column-count: 1; column-gap: 1rem; }
-      @media (min-width: 640px) { .masonry-grid { column-count: 2; } }
-      @media (min-width: 1024px) { .masonry-grid { column-count: 3; } }
-      .masonry-item { break-inside: avoid; margin-bottom: 1rem; }
-    </style>
+    <link rel="stylesheet" href="/src/styles.css">
   <script type="importmap">
 {
   "imports": {
