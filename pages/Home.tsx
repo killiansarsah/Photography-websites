@@ -193,52 +193,52 @@ const Home: React.FC = () => {
       description: "Memorable moments from a Ghanaian celebration."
     },
     {
-      image: "/photos/photomemoirgh_1561624860_2075382211164899695_2093432430.jpg",
+      image: "/photos/gallery-1.jpg",
       title: "Portfolio Highlight 1",
       description: "Stunning photography from our collection."
     },
     {
-      image: "/photos/photomemoirgh_1561624860_2075382211173331408_2093432430.jpg",
+      image: "/photos/gallery-2.jpg",
       title: "Portfolio Highlight 2",
       description: "Professional photography in Ghana."
     },
     {
-      image: "/photos/photomemoirgh_1561624860_2075382211181654694_2093432430.jpg",
+      image: "/photos/gallery-3.jpg",
       title: "Portfolio Highlight 3",
       description: "Capturing life's beautiful moments."
     },
     {
-      image: "/photos/photomemoirgh_1570375656_2148789206576000474_2093432430.jpg",
+      image: "/photos/gallery-4.jpg",
       title: "Portfolio Highlight 4",
       description: "Creative photography from Accra."
     },
     {
-      image: "/photos/photomemoirgh_1575124440_2188624894246712877_2093432430.jpg",
+      image: "/photos/gallery-5.jpg",
       title: "Portfolio Highlight 5",
       description: "Stunning visuals from our portfolio."
     },
     {
-      image: "/photos/photomemoirgh_1575124440_2188624894263432094_2093432430.jpg",
+      image: "/photos/gallery-6.jpg",
       title: "Portfolio Highlight 6",
       description: "Professional photography in Ghana."
     },
     {
-      image: "/photos/photomemoirgh_1593950080_2346545806752168484_2093432430.jpg",
+      image: "/photos/gallery-7.jpg",
       title: "Portfolio Highlight 7",
       description: "Capturing memorable moments beautifully."
     },
     {
-      image: "/photos/photomemoirgh_1603186995_2424030670354895176_2093432430.jpg",
+      image: "/photos/gallery-8.jpg",
       title: "Portfolio Highlight 8",
       description: "Beautiful photography from our collection."
     },
     {
-      image: "/photos/photomemoirgh_1605515428_2443562983346175449_2093432430.jpg",
+      image: "/photos/gallery-9.jpg",
       title: "Portfolio Highlight 9",
       description: "Creative imagery from Accra, Ghana."
     },
     {
-      image: "/photos/photomemoirgh_1614550697_2519356311198761329_2093432430.jpg",
+      image: "/photos/gallery-10.jpg",
       title: "Portfolio Highlight 10",
       description: "Stunning photography capturing Ghana's beauty."
     },
@@ -279,7 +279,7 @@ const Home: React.FC = () => {
             className="w-full h-full object-cover"
             onLoadedData={() => setIsHeroLoaded(true)}
           >
-            <source src="/photos/real%20vid.mp4" type="video/mp4" />
+            <source src="/photos/real vid.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-b from-[#111c21]/70 via-[#111c21]/50 to-[#111c21]"></div>
         </div>
