@@ -24,172 +24,172 @@ const Home: React.FC = () => {
       description: "Beautiful moments captured at a wedding ceremony in Accra, Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (2).jpg")),
+      image: getAssetPath("/photos/wedding-2.jpg"),
       title: "Wedding Celebration 2",
       description: "Timeless memories from a special day in Accra, Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (3).jpg")),
+      image: getAssetPath("/photos/wedding-3.jpg"),
       title: "Wedding Celebration 3",
       description: "Love and joy captured at a Ghanaian wedding."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (4).jpg")),
+      image: getAssetPath("/photos/wedding-4.jpg"),
       title: "Wedding Celebration 4",
       description: "Elegant wedding photography in Accra, Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (5).jpg")),
+      image: getAssetPath("/photos/wedding-5.jpg"),
       title: "Wedding Celebration 5",
       description: "A day to remember, captured beautifully in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (6).jpg")),
+      image: getAssetPath("/photos/wedding-6.jpg"),
       title: "Wedding Celebration 6",
       description: "Celebrating love and unity in Accra."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (7).jpg")),
+      image: getAssetPath("/photos/wedding-7.jpg"),
       title: "Wedding Celebration 7",
       description: "Joyful moments from a Ghanaian wedding ceremony."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (8).jpg")),
+      image: getAssetPath("/photos/wedding-8.jpg"),
       title: "Wedding Celebration 8",
       description: "Capturing the essence of a perfect wedding day."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (9).jpg")),
+      image: getAssetPath("/photos/wedding-9.jpg"),
       title: "Wedding Celebration 9",
       description: "Beautiful photography from a wedding in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (10).jpg")),
+      image: getAssetPath("/photos/wedding-10.jpg"),
       title: "Wedding Celebration 10",
       description: "Love stories told through stunning imagery."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (11).jpg")),
+      image: getAssetPath("/photos/wedding-11.jpg"),
       title: "Wedding Celebration 11",
       description: "Memorable moments from an Accra wedding."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (12).jpg")),
+      image: getAssetPath("/photos/wedding-12.jpg"),
       title: "Wedding Celebration 12",
       description: "Celebrating life's precious moments in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (13).jpg")),
+      image: getAssetPath("/photos/wedding-13.jpg"),
       title: "Wedding Celebration 13",
       description: "Elegant wedding photography in Accra."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (14).jpg")),
+      image: getAssetPath("/photos/wedding-14.jpg"),
       title: "Wedding Celebration 14",
       description: "Capturing the beauty of love in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (15).jpg")),
+      image: getAssetPath("/photos/wedding-15.jpg"),
       title: "Wedding Celebration 15",
       description: "Timeless wedding memories from Accra."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (16).jpg")),
+      image: getAssetPath("/photos/wedding-16.jpg"),
       title: "Wedding Celebration 16",
       description: "Joyful celebration captured beautifully."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (17).jpg")),
+      image: getAssetPath("/photos/wedding-17.jpg"),
       title: "Wedding Celebration 17",
       description: "A perfect wedding day in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (18).jpg")),
+      image: getAssetPath("/photos/wedding-18.jpg"),
       title: "Wedding Celebration 18",
       description: "Love and happiness in every frame."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (19).jpg")),
+      image: getAssetPath("/photos/wedding-19.jpg"),
       title: "Wedding Celebration 19",
       description: "Beautiful wedding photography from Accra."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (20).jpg")),
+      image: getAssetPath("/photos/wedding-20.jpg"),
       title: "Wedding Celebration 20",
       description: "Capturing the magic of a Ghanaian wedding."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (21).jpg")),
+      image: getAssetPath("/photos/wedding-21.jpg"),
       title: "Wedding Celebration 21",
       description: "Memorable moments from a special day."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (22).jpg")),
+      image: getAssetPath("/photos/wedding-22.jpg"),
       title: "Wedding Celebration 22",
       description: "Stunning wedding imagery from Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (23).jpg")),
+      image: getAssetPath("/photos/wedding-23.jpg"),
       title: "Wedding Celebration 23",
       description: "Celebrating love in Accra, Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (24).jpg")),
+      image: getAssetPath("/photos/wedding-24.jpg"),
       title: "Wedding Celebration 24",
       description: "Beautiful moments from a wedding ceremony."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (25).jpg")),
+      image: getAssetPath("/photos/wedding-25.jpg"),
       title: "Wedding Celebration 25",
       description: "Love stories captured through our lens."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (26).jpg")),
+      image: getAssetPath("/photos/wedding-26.jpg"),
       title: "Wedding Celebration 26",
       description: "Joyful wedding photography in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (27).jpg")),
+      image: getAssetPath("/photos/wedding-27.jpg"),
       title: "Wedding Celebration 27",
       description: "Timeless memories from an Accra wedding."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (28).jpg")),
+      image: getAssetPath("/photos/wedding-28.jpg"),
       title: "Wedding Celebration 28",
       description: "Capturing the essence of a perfect day."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (29).jpg")),
+      image: getAssetPath("/photos/wedding-29.jpg"),
       title: "Wedding Celebration 29",
       description: "Elegant wedding moments in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (30).jpg")),
+      image: getAssetPath("/photos/wedding-30.jpg"),
       title: "Wedding Celebration 30",
       description: "Beautiful celebration captured in Accra."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (31).jpg")),
+      image: getAssetPath("/photos/wedding-31.jpg"),
       title: "Wedding Celebration 31",
       description: "Love and joy from a Ghanaian wedding."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (32).jpg")),
+      image: getAssetPath("/photos/wedding-32.jpg"),
       title: "Wedding Celebration 32",
       description: "Stunning photography from a wedding in Ghana."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (33).jpg")),
+      image: getAssetPath("/photos/wedding-33.jpg"),
       title: "Wedding Celebration 33",
       description: "Capturing precious moments in Accra."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (34).jpg")),
+      image: getAssetPath("/photos/wedding-34.jpg"),
       title: "Wedding Celebration 34",
       description: "Beautiful wedding day captured perfectly."
     },
     {
-      image: getAssetPath(getAssetPath("/photos/wedding (35).jpg")),
+      image: getAssetPath("/photos/wedding-35.jpg"),
       title: "Wedding Celebration 35",
       description: "Memorable moments from a Ghanaian celebration."
     },
@@ -244,17 +244,17 @@ const Home: React.FC = () => {
       description: "Stunning photography capturing Ghana's beauty."
     },
     {
-      image: getAssetPath("/photos/About me pic1.jpg"),
+      image: getAssetPath("/photos/About-me-pic1.jpg"),
       title: "Behind the Lens",
       description: "Meet the photographer behind the camera."
     },
     {
-      image: getAssetPath("/photos/About me pic 2.jpg"),
+      image: getAssetPath("/photos/About-me-pic-2.jpg"),
       title: "Our Story",
       description: "Passionate about capturing life's moments."
     },
     {
-      image: getAssetPath("/photos/About me pic 3.jpg"),
+      image: getAssetPath("/photos/About-me-pic-3.jpg"),
       title: "Our Vision",
       description: "Creating timeless memories through photography."
     }
@@ -280,7 +280,7 @@ const Home: React.FC = () => {
             className="w-full h-full object-cover"
             onLoadedData={() => setIsHeroLoaded(true)}
           >
-            <source src={getAssetPath("/photos/real vid.mp4")} type="video/mp4" />
+            <source src={getAssetPath("/photos/real-vid.mp4")} type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-b from-[#111c21]/70 via-[#111c21]/50 to-[#111c21]"></div>
         </div>

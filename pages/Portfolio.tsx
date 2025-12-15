@@ -18,205 +18,205 @@ const portfolioItems: PortfolioItem[] = [
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (2).jpg"), 
+    src: getAssetPath("/photos/wedding-2.jpg"), 
     title: "Wedding Day 2", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (3).jpg"), 
+    src: getAssetPath("/photos/wedding-3.jpg"), 
     title: "Wedding Day 3", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (4).jpg"), 
+    src: getAssetPath("/photos/wedding-4.jpg"), 
     title: "Wedding Day 4", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (5).jpg"), 
+    src: getAssetPath("/photos/wedding-5.jpg"), 
     title: "Wedding Day 5", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (6).jpg"), 
+    src: getAssetPath("/photos/wedding-6.jpg"), 
     title: "Wedding Day 6", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (7).jpg"), 
+    src: getAssetPath("/photos/wedding-7.jpg"), 
     title: "Wedding Day 7", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (8).jpg"), 
+    src: getAssetPath("/photos/wedding-8.jpg"), 
     title: "Wedding Day 8", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (9).jpg"), 
+    src: getAssetPath("/photos/wedding-9.jpg"), 
     title: "Wedding Day 9", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (10).jpg"), 
+    src: getAssetPath("/photos/wedding-10.jpg"), 
     title: "Wedding Day 10", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (11).jpg"), 
+    src: getAssetPath("/photos/wedding-11.jpg"), 
     title: "Wedding Day 11", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (12).jpg"), 
+    src: getAssetPath("/photos/wedding-12.jpg"), 
     title: "Wedding Day 12", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (13).jpg"), 
+    src: getAssetPath("/photos/wedding-13.jpg"), 
     title: "Wedding Day 13", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (14).jpg"), 
+    src: getAssetPath("/photos/wedding-14.jpg"), 
     title: "Wedding Day 14", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (15).jpg"), 
+    src: getAssetPath("/photos/wedding-15.jpg"), 
     title: "Wedding Day 15", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (16).jpg"), 
+    src: getAssetPath("/photos/wedding-16.jpg"), 
     title: "Wedding Day 16", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (17).jpg"), 
+    src: getAssetPath("/photos/wedding-17.jpg"), 
     title: "Wedding Day 17", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (18).jpg"), 
+    src: getAssetPath("/photos/wedding-18.jpg"), 
     title: "Wedding Day 18", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (19).jpg"), 
+    src: getAssetPath("/photos/wedding-19.jpg"), 
     title: "Wedding Day 19", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (20).jpg"), 
+    src: getAssetPath("/photos/wedding-20.jpg"), 
     title: "Wedding Day 20", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (21).jpg"), 
+    src: getAssetPath("/photos/wedding-21.jpg"), 
     title: "Wedding Day 21", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (22).jpg"), 
+    src: getAssetPath("/photos/wedding-22.jpg"), 
     title: "Wedding Day 22", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (23).jpg"), 
+    src: getAssetPath("/photos/wedding-23.jpg"), 
     title: "Wedding Day 23", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (24).jpg"), 
+    src: getAssetPath("/photos/wedding-24.jpg"), 
     title: "Wedding Day 24", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (25).jpg"), 
+    src: getAssetPath("/photos/wedding-25.jpg"), 
     title: "Wedding Day 25", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (26).jpg"), 
+    src: getAssetPath("/photos/wedding-26.jpg"), 
     title: "Wedding Day 26", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (27).jpg"), 
+    src: getAssetPath("/photos/wedding-27.jpg"), 
     title: "Wedding Day 27", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (28).jpg"), 
+    src: getAssetPath("/photos/wedding-28.jpg"), 
     title: "Wedding Day 28", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (29).jpg"), 
+    src: getAssetPath("/photos/wedding-29.jpg"), 
     title: "Wedding Day 29", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (30).jpg"), 
+    src: getAssetPath("/photos/wedding-30.jpg"), 
     title: "Wedding Day 30", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (31).jpg"), 
+    src: getAssetPath("/photos/wedding-31.jpg"), 
     title: "Wedding Day 31", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (32).jpg"), 
+    src: getAssetPath("/photos/wedding-32.jpg"), 
     title: "Wedding Day 32", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (33).jpg"), 
+    src: getAssetPath("/photos/wedding-33.jpg"), 
     title: "Wedding Day 33", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (34).jpg"), 
+    src: getAssetPath("/photos/wedding-34.jpg"), 
     title: "Wedding Day 34", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/wedding (35).jpg"), 
+    src: getAssetPath("/photos/wedding-35.jpg"), 
     title: "Wedding Day 35", 
     category: "Weddings", 
     location: "Accra, Ghana" 
@@ -380,7 +380,7 @@ const portfolioItems: PortfolioItem[] = [
     location: "Accra, Ghana" 
   },
   { 
-    src: getAssetPath("/photos/vid me.mp4"), 
+    src: getAssetPath("/photos/vid-me.mp4"), 
     title: "With Me - Video 9", 
     category: "Videos", 
     location: "Accra, Ghana" 
@@ -484,40 +484,40 @@ export const PortfolioSection: React.FC = () => {
 
   const heroImages = [
     getAssetPath("/photos/wedding.jpg"),
-    getAssetPath("/photos/wedding (2).jpg"),
-    getAssetPath("/photos/wedding (3).jpg"),
-    getAssetPath("/photos/wedding (4).jpg"),
-    getAssetPath("/photos/wedding (5).jpg"),
-    getAssetPath("/photos/wedding (6).jpg"),
-    getAssetPath("/photos/wedding (7).jpg"),
-    getAssetPath("/photos/wedding (8).jpg"),
-    getAssetPath("/photos/wedding (9).jpg"),
-    getAssetPath("/photos/wedding (10).jpg"),
-    getAssetPath("/photos/wedding (11).jpg"),
-    getAssetPath("/photos/wedding (12).jpg"),
-    getAssetPath("/photos/wedding (13).jpg"),
-    getAssetPath("/photos/wedding (14).jpg"),
-    getAssetPath("/photos/wedding (15).jpg"),
-    getAssetPath("/photos/wedding (16).jpg"),
-    getAssetPath("/photos/wedding (17).jpg"),
-    getAssetPath("/photos/wedding (18).jpg"),
-    getAssetPath("/photos/wedding (19).jpg"),
-    getAssetPath("/photos/wedding (20).jpg"),
-    getAssetPath("/photos/wedding (21).jpg"),
-    getAssetPath("/photos/wedding (22).jpg"),
-    getAssetPath("/photos/wedding (23).jpg"),
-    getAssetPath("/photos/wedding (24).jpg"),
-    getAssetPath("/photos/wedding (25).jpg"),
-    getAssetPath("/photos/wedding (26).jpg"),
-    getAssetPath("/photos/wedding (27).jpg"),
-    getAssetPath("/photos/wedding (28).jpg"),
-    getAssetPath("/photos/wedding (29).jpg"),
-    getAssetPath("/photos/wedding (30).jpg"),
-    getAssetPath("/photos/wedding (31).jpg"),
-    getAssetPath("/photos/wedding (32).jpg"),
-    getAssetPath("/photos/wedding (33).jpg"),
-    getAssetPath("/photos/wedding (34).jpg"),
-    getAssetPath("/photos/wedding (35).jpg"),
+    getAssetPath("/photos/wedding-2.jpg"),
+    getAssetPath("/photos/wedding-3.jpg"),
+    getAssetPath("/photos/wedding-4.jpg"),
+    getAssetPath("/photos/wedding-5.jpg"),
+    getAssetPath("/photos/wedding-6.jpg"),
+    getAssetPath("/photos/wedding-7.jpg"),
+    getAssetPath("/photos/wedding-8.jpg"),
+    getAssetPath("/photos/wedding-9.jpg"),
+    getAssetPath("/photos/wedding-10.jpg"),
+    getAssetPath("/photos/wedding-11.jpg"),
+    getAssetPath("/photos/wedding-12.jpg"),
+    getAssetPath("/photos/wedding-13.jpg"),
+    getAssetPath("/photos/wedding-14.jpg"),
+    getAssetPath("/photos/wedding-15.jpg"),
+    getAssetPath("/photos/wedding-16.jpg"),
+    getAssetPath("/photos/wedding-17.jpg"),
+    getAssetPath("/photos/wedding-18.jpg"),
+    getAssetPath("/photos/wedding-19.jpg"),
+    getAssetPath("/photos/wedding-20.jpg"),
+    getAssetPath("/photos/wedding-21.jpg"),
+    getAssetPath("/photos/wedding-22.jpg"),
+    getAssetPath("/photos/wedding-23.jpg"),
+    getAssetPath("/photos/wedding-24.jpg"),
+    getAssetPath("/photos/wedding-25.jpg"),
+    getAssetPath("/photos/wedding-26.jpg"),
+    getAssetPath("/photos/wedding-27.jpg"),
+    getAssetPath("/photos/wedding-28.jpg"),
+    getAssetPath("/photos/wedding-29.jpg"),
+    getAssetPath("/photos/wedding-30.jpg"),
+    getAssetPath("/photos/wedding-31.jpg"),
+    getAssetPath("/photos/wedding-32.jpg"),
+    getAssetPath("/photos/wedding-33.jpg"),
+    getAssetPath("/photos/wedding-34.jpg"),
+    getAssetPath("/photos/wedding-35.jpg"),
     getAssetPath("/photos/gallery-1.jpg"),
     getAssetPath("/photos/gallery-2.jpg"),
     getAssetPath("/photos/gallery-3.jpg"),
@@ -528,9 +528,9 @@ export const PortfolioSection: React.FC = () => {
     getAssetPath("/photos/gallery-8.jpg"),
     getAssetPath("/photos/gallery-9.jpg"),
     getAssetPath("/photos/gallery-10.jpg"),
-    getAssetPath("/photos/About me pic1.jpg"),
-    getAssetPath("/photos/About me pic 2.jpg"),
-    getAssetPath("/photos/About me pic 3.jpg")
+    getAssetPath("/photos/About-me-pic1.jpg"),
+    getAssetPath("/photos/About-me-pic-2.jpg"),
+    getAssetPath("/photos/About-me-pic-3.jpg")
   ];
 
   // Rotate hero images
@@ -551,15 +551,15 @@ export const PortfolioSection: React.FC = () => {
   function getAllImageItems() {
     const allImages = [
       // Wedding photos (all 36 wedding images)
-      "wedding.jpg", "wedding (2).jpg", "wedding (3).jpg", "wedding (4).jpg", "wedding (5).jpg",
-      "wedding (6).jpg", "wedding (7).jpg", "wedding (8).jpg", "wedding (9).jpg", "wedding (10).jpg",
-      "wedding (11).jpg", "wedding (12).jpg", "wedding (13).jpg", "wedding (14).jpg", "wedding (15).jpg",
-      "wedding (16).jpg", "wedding (17).jpg", "wedding (18).jpg", "wedding (19).jpg", "wedding (20).jpg",
-      "wedding (21).jpg", "wedding (22).jpg", "wedding (23).jpg", "wedding (24).jpg", "wedding (25).jpg",
-      "wedding (26).jpg", "wedding (27).jpg", "wedding (28).jpg", "wedding (29).jpg", "wedding (30).jpg",
-      "wedding (31).jpg", "wedding (32).jpg", "wedding (33).jpg", "wedding (34).jpg", "wedding (35).jpg",
+      "wedding.jpg", "wedding-2.jpg", "wedding-3.jpg", "wedding-4.jpg", "wedding-5.jpg",
+      "wedding-6.jpg", "wedding-7.jpg", "wedding-8.jpg", "wedding-9.jpg", "wedding-10.jpg",
+      "wedding-11.jpg", "wedding-12.jpg", "wedding-13.jpg", "wedding-14.jpg", "wedding-15.jpg",
+      "wedding-16.jpg", "wedding-17.jpg", "wedding-18.jpg", "wedding-19.jpg", "wedding-20.jpg",
+      "wedding-21.jpg", "wedding-22.jpg", "wedding-23.jpg", "wedding-24.jpg", "wedding-25.jpg",
+      "wedding-26.jpg", "wedding-27.jpg", "wedding-28.jpg", "wedding-29.jpg", "wedding-30.jpg",
+      "wedding-31.jpg", "wedding-32.jpg", "wedding-33.jpg", "wedding-34.jpg", "wedding-35.jpg",
       // About me photos
-      "About me pic1.jpg", "About me pic 2.jpg", "About me pic 3.jpg",
+      "About-me-pic1.jpg", "About-me-pic-2.jpg", "About-me-pic-3.jpg",
       // Portrait photos (renamed from numbered files)
       "portrait-1.jpg", "portrait-2.jpg", "portrait-3.jpg", "portrait-4.jpg", "portrait-5.jpg",
       "portrait-6.jpg", "portrait-7.jpg", "portrait-8.jpg", "portrait-9.jpg", "portrait-10.jpg",
@@ -575,8 +575,8 @@ export const PortfolioSection: React.FC = () => {
       "antoine-demare-qstSVTp6OrM-unsplash.jpg",
       "christian-diaz-Tg_Du1s-WU0-unsplash.jpg",
       // Logo files
-      "Logo darkmode.jpg",
-      "logo lightmode.jpg",
+      "Logo-darkmode.jpg",
+      "logo-lightmode.jpg",
       "Logo_darkmode-removebg-preview.png",
       "Logo.jpg",
       // Gallery photos (renamed from photomemoirgh files)
