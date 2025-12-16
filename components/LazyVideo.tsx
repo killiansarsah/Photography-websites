@@ -61,7 +61,7 @@ const LazyVideo: React.FC<LazyVideoProps> = ({
       controls={controls}
       poster={poster}
       onLoadedData={handleLoadedData}
-      preload={isInView ? 'metadata' : 'none'}
+      preload={isInView ? 'auto' : 'none'}
     >
       {isInView && <source src={src} type="video/mp4" />}
     </video>

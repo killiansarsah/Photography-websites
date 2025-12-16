@@ -3,12 +3,11 @@ import { getAssetPath } from '../utils/paths';
 
 const ImagePreloader = () => {
   useEffect(() => {
-    // Preload critical images
+    // Preload critical images - prioritize logo and hero content
     const criticalImages = [
+      '/photos/Logo_darkmode-removebg-preview.png',
       '/photos/wedding.jpg',
       '/photos/wedding-2.jpg',
-      '/photos/wedding-3.jpg',
-      '/photos/Logo_darkmode-removebg-preview.png',
       '/photos/portrait-19.jpg'
     ];
 

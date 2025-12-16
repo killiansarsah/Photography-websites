@@ -275,6 +275,7 @@ const Home: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <LazyVideo
             src={getAssetPath("/photos/real-vid.mp4")}
+            poster={getAssetPath("/photos/wedding.jpg")}
             className="w-full h-full object-cover"
             autoPlay
             loop

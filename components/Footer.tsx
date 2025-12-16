@@ -36,6 +36,8 @@ const Footer: React.FC = () => {
                 src={getAssetPath('/photos/Logo_darkmode-removebg-preview.png')} 
                 alt="Logo" 
                 className="h-44 w-auto" 
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <p className="text-gray-500 text-sm leading-relaxed mb-6">

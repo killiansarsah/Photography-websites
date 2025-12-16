@@ -44,6 +44,8 @@ const Navbar: React.FC = () => {
             src={getAssetPath("/photos/Logo_darkmode-removebg-preview.png")} 
             alt="Logo" 
             className="h-40 w-auto group-hover:scale-110 transition-transform duration-300"
+            loading="eager"
+            decoding="async"
           />
         </Link>
 
